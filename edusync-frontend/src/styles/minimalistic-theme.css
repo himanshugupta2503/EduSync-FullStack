@@ -1,0 +1,262 @@
+/* Minimalistic Theme for EduSync
+   This overrides Bootstrap's default colors with a more minimalistic palette */
+
+:root {
+  /* Main colors */
+  --primary: #546e7a;
+  --secondary: #90a4ae;
+  --success: #66bb6a;
+  --info: #4fc3f7;
+  --warning: #ffb74d;
+  --danger: #e57373;
+  --light: #f5f5f5;
+  --dark: #37474f;
+  
+  /* Neutral colors */
+  --gray-100: #f8f9fa;
+  --gray-200: #eceff1;
+  --gray-300: #cfd8dc;
+  --gray-400: #b0bec5;
+  --gray-500: #90a4ae;
+  --gray-600: #78909c;
+  --gray-700: #546e7a;
+  --gray-800: #455a64;
+  --gray-900: #37474f;
+  
+  /* Text colors */
+  --body-color: #37474f;
+  --body-bg: #f5f5f5;
+  
+  /* Links */
+  --link-color: #546e7a;
+  --link-hover-color: #37474f;
+}
+
+/* Override Bootstrap classes */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-success {
+  background-color: var(--success) !important;
+}
+
+.bg-info {
+  background-color: var(--info) !important;
+}
+
+.bg-warning {
+  background-color: var(--warning) !important;
+}
+
+.bg-danger {
+  background-color: var(--danger) !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+
+.text-info {
+  color: var(--info) !important;
+}
+
+.text-warning {
+  color: var(--warning) !important;
+}
+
+.text-danger {
+  color: var(--danger) !important;
+}
+
+.text-light {
+  color: var(--light) !important;
+}
+
+.text-dark {
+  color: var(--dark) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--gray-800) !important;
+  border-color: var(--gray-800) !important;
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-success {
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+.btn-info {
+  background-color: var(--info);
+  border-color: var(--info);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  border-color: var(--warning);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+  border: none !important;
+}
+
+.card-header {
+  background-color: var(--gray-200) !important;
+  border-bottom: 1px solid var(--gray-300) !important;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: white;
+}
+
+/* Custom container with max width for better readability */
+.container-narrow {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Form controls */
+.form-control:focus {
+  border-color: var(--gray-500);
+  box-shadow: 0 0 0 0.25rem rgba(84, 110, 122, 0.25);
+}
+
+/* Page background */
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+/* Badges */
+.badge.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.badge.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Table styling */
+.table {
+  border-color: var(--gray-300);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--gray-100);
+}
+
+.table-light, .table-light>th, .table-light>td {
+  background-color: var(--gray-200);
+}
+
+/* Make the home page hero section less bright */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--gray-800) 100%) !important;
+}
+
+/* Course cards */
+.course-card {
+  transition: all 0.3s ease;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Category cards */
+.category-card {
+  background-color: white !important;
+  border: 1px solid var(--gray-300) !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary) !important;
+}
+
+/* Profile page */
+.avatar-circle {
+  background-color: var(--primary) !important;
+}
+
+/* Better mobile styling */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

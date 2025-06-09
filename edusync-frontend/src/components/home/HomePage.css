@@ -1,0 +1,57 @@
+/* HomePage.css */
+.home-container {
+  margin-bottom: 3rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  padding: 4rem 0;
+}
+
+.category-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: #0d6efd;
+  background-color: #f0f7ff;
+}
+
+.category-section:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.stat-item {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.course-card {
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 0;
+  }
+  
+  .category-section .row {
+    margin-bottom: 1rem;
+  }
+}

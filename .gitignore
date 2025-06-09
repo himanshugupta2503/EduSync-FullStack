@@ -1,0 +1,66 @@
+# .NET Core - Backend specific paths
+/EduSyncAPIDemo/bin/
+/EduSyncAPIDemo/obj/
+/EduSyncAPIDemo/*.user
+/EduSyncAPIDemo/*.userosscache
+/EduSyncAPIDemo/*.suo
+/EduSyncAPIDemo/.vs/
+/EduSyncAPIDemo/.vscode/
+/EduSyncAPIDemo/_ReSharper*/
+/EduSyncAPIDemo/*.ReSharper*
+/EduSyncAPIDemo/*.DotSettings.user
+/EduSyncAPIDemo/*.dbmdl
+/EduSyncAPIDemo/*.jfm
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Node.js - Frontend specific paths
+/edusync-frontend/node_modules/
+/edusync-frontend/npm-debug.log
+/edusync-frontend/yarn-debug.log
+/edusync-frontend/yarn-error.log
+/edusync-frontend/.env
+/edusync-frontend/.env.local
+/edusync-frontend/.env.development.local
+/edusync-frontend/.env.test.local
+/edusync-frontend/.env.production.local
+/edusync-frontend/.DS_Store
+
+# Build folders - Frontend specific
+/edusync-frontend/build
+/edusync-frontend/dist
+
+# Dependencies - Frontend specific
+/edusync-frontend/.pnp
+/edusync-frontend/.pnp.js
+
+# Testing - Frontend specific
+/edusync-frontend/coverage
+
+# Misc
+.DS_Store
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Logs
+logs
+*.log
+
+appsettings.json
+
+appsettings.Development.json

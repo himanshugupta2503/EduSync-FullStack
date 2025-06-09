@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSyncAPIDemo", "EduSyncAPIDemo.csproj", "{8C4F051E-E158-4B27-AB92-BD53353AB8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduSync.UITests", "..\EduSync.UITests\EduSync.UITests.csproj", "{79D5D55E-E6E5-8BD5-9721-3AC5EC73FD36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C4F051E-E158-4B27-AB92-BD53353AB8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4F051E-E158-4B27-AB92-BD53353AB8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4F051E-E158-4B27-AB92-BD53353AB8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4F051E-E158-4B27-AB92-BD53353AB8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D5D55E-E6E5-8BD5-9721-3AC5EC73FD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D5D55E-E6E5-8BD5-9721-3AC5EC73FD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D5D55E-E6E5-8BD5-9721-3AC5EC73FD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D5D55E-E6E5-8BD5-9721-3AC5EC73FD36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD475A34-8B49-470E-BB5D-9471B166135E}
+	EndGlobalSection
+EndGlobal
