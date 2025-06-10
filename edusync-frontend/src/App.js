@@ -4,6 +4,7 @@ import { AuthContext } from './context/AuthContext';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
 import './styles/minimalistic-theme.css'; // Import minimalistic theme (overrides Bootstrap)
 
